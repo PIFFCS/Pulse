@@ -1,0 +1,1253 @@
+/*-- INDEX --*/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: red;
+    left: 0;
+    top: 0;
+    position: absolute;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navLogo {
+    display: flex;
+    position: absolute;
+    width: 28%;
+    height: 25%;
+    top: 0;
+    left: 0;
+    background-color:;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLogoCopy {
+    display: flex;
+    position: absolute;
+    width: 28%;
+    height: 25%;
+    top: 0%;
+    left: 0%;
+    z-index: 1; 
+    justify-content: center;
+    align-items: center;
+    background: url(sheets/sko.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    filter: opacity(20%);
+}
+
+.navBar {
+    display: flex;
+    position: absolute;
+    width: 37%;
+    height: 25%;
+    top: 0%;
+    left: 28%;
+    background-color:;
+    z-index: 2; 
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarCopy {
+    display: flex;
+    position: absolute;
+    width: 37%;
+    height: 25%;
+    top: 0%;
+    left: 28%;
+    z-index: 1; 
+    justify-content: center;
+    align-items: center;
+    background: url(sheets/new-york.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    filter: opacity(20%);
+}
+
+.imgBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    top: 0%;
+    z-index: 0;
+}
+
+.imgOne {
+    position: absolute;
+    width: 32.5%;
+    height: 37.5%;
+    top: 25%;
+    background-color: aqua;
+    left: 32.5%;
+    background: url(sheets/new-macbook-pro-release-date-martin-hajeck_thumb800.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    z-index: 2;
+}
+
+.imgOneCopy {
+    display: flex;
+    position: absolute;
+    width: 32.5%;
+    height: 37.5%;
+    top: 25%;
+    background-color: green;
+    left: 32.5%;
+    z-index: 3;
+    filter: opacity(20%);
+    color: green;
+    align-items: center;
+    font-size: 1.8vw;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.imgOneCopy:hover {
+    filter: opacity(70%);
+    color: white;
+}
+
+
+
+.imgTwo {
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    bottom: 0%;
+    left: 65%;
+    background: url(sheets/6.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.imgTwoCopy {
+    display: flex;
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    bottom: 0%;
+    left: 65%;
+    z-index: 1;
+    background-color: deepskyblue;
+    filter: opacity(20%);
+    color: deepskyblue;
+    align-items: center;
+    font-size: 2.3vw;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.imgTwoCopy:hover {
+    filter: opacity(70%);
+    color: white;
+}
+
+
+.imgThree {
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    bottom: 0%;
+    left: 65%;
+    top: 0;
+    z-index: 1;
+    background: url(sheets/microsoft_surface_studio.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.imgThreeCopy {
+    display: flex;
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    bottom: 0%;
+    left: 65%;
+    top: 0;
+    z-index: 2;
+    background-color: red;
+    filter: opacity(20%);
+    color: red;
+    align-items: center;
+    font-size: 2.3vw;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.imgThreeCopy:hover {
+    filter: opacity(70%);
+    color: white;
+}
+
+.imgFour {
+    position: absolute;
+    width: 32.5%;
+    height: 37.5%;
+    left: 0%;
+    top: 25%;
+    z-index: 1;
+    background: url(sheets/cam.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.imgFourCopy {
+    display: flex;
+    position: absolute;
+    width: 32.5%;
+    height: 37.5%;
+    left: 0%;
+    top: 25%;
+    z-index: 9;
+    background-color: purple;
+    filter: opacity(20%);
+    color: purple;
+    align-items: center;
+    font-size: 1.8vw;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.imgFourCopy:hover {
+    filter: opacity(70%);
+    color: white;
+}
+
+.imgFive {
+    position: absolute;
+    width: 32.5%;
+    height: 37.5%;
+    left: 0%;
+    top: 62.5%;
+    z-index: 1;
+    background: url(sheets/Pebble-Steel-2.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.imgFiveCopy {
+    display: flex;
+    position: absolute;
+    width: 32.5%;
+    height: 37.5%;
+    left: 0%;
+    top: 62.5%;
+    z-index: 9;
+    background-color: darkorange;
+    filter: opacity(20%);
+    color: darkorange;
+    align-items: center;
+    font-size: 1.8vw;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.imgFiveCopy:hover {
+    filter: opacity(70%);
+    color: white;
+}
+
+.imgSix {
+    position: absolute;
+    width: 32.5%;
+    height: 37.5%;
+    left: 32.5%;
+    top: 62.5%;
+    z-index: 1;
+    background: url(sheets/1080.JPG);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.imgSixCopy {
+    display: flex;
+    position: absolute;
+    width: 32.5%;
+    height: 37.5%;
+    left: 32.5%;
+    top: 62.5%;
+    z-index: 9;
+    background-color: fuchsia;
+    filter: opacity(20%);
+    color: fuchsia;
+    align-items: center;
+    font-size: 1.8vw;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.imgSixCopy:hover {
+    filter: opacity(70%);
+    color: white;
+}
+
+#title {
+    font-size: 7vw;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
+.items {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 4vw;
+    border: 2px solid white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;  
+}
+
+.items:hover {
+    background-color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/*-------------------------------*/
+/*BROWSE-------------------------*/
+/*-------------------------------*/
+
+
+.navLogo {
+    
+}
+.emptySpace {
+    position: absolute;
+    width: 72%;
+    height: 25%;
+    left: 28%;
+}
+
+.emptySpaceCopy {
+    display: flex;
+    position: absolute;
+    width: 72%;
+    height: 25%;
+    top: 0%;
+    left: 28%;
+    z-index: 1; 
+    justify-content: center;
+    align-items: center;
+    background: url(sheets/sko.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    filter: opacity(20%);
+}
+
+
+
+.mountain {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    top: 25%;
+   
+    z-index: 0;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.audioBanner {
+    display: flex;
+    position: absolute;
+    width: 16.66666%;
+    height: 15%;
+    left: 0;
+    background-color:;
+    top: 25%;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.audioBannerCopy {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 75%;
+    left: 0;
+    top: 25%;
+    background-color: lightcoral;
+    filter: opacity(100%);
+    z-index: 2;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.audioBannerText {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 60%;
+    left: 0;
+    top: 40%;
+    background-color:;
+    filter: opacity(100%);
+    z-index: 3;
+}
+
+.text {
+    color: white;
+    font-size: 3.2vw;
+}
+
+.periphBanner {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 15%;
+    left: 16.5%;
+    background-color: ;
+    top: 25%;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.periphBannerCopy {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 75%;
+    left: 16.5%;
+    top: 25%;
+    background-color: lightblue;
+    filter: opacity(100%);
+    z-index: 2;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.periphBannerText {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 60%;
+    left: 16.5%;
+    top: 40%;
+    background-color:;
+    filter: opacity(100%);
+    z-index: 3;
+}
+
+.laptopBanner {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 15%;
+    left: 33%;
+    background-color:;
+    top: 25%;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.laptopBannerCopy {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 75%;
+    left: 33%;
+    top: 25%;
+    background-color: lightgreen;
+    filter: opacity(100%);
+    z-index: 2;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.laptopBannerText {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 60%;
+    left: 33%;
+    top: 40%;
+    background-color:;
+    filter: opacity(100%);
+    z-index: 3;
+}
+
+.mobileBanner {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 15%;
+    left: 49.5%;
+    background-color:;
+    top: 25%;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.mobileBannerCopy {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 75%;
+    left: 49.5%;
+    top: 25%;
+    background-color: lightgrey;
+    filter: opacity(100%);
+    z-index: 2;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.mobileBannerText {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 60%;
+    left: 49.5%;
+    top: 40%;
+    background-color:;
+    filter: opacity(100%);
+    z-index: 3;
+}
+
+.tutorialBanner {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 15%;
+    left: 66%;
+    background-color:;
+    top: 25%;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.tutorialBannerCopy {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 75%;
+    left: 66%;
+    top: 25%;
+    background-color: lightseagreen;
+    filter: opacity(100%);
+    z-index: 2;
+}
+
+.tutorialBannerText {
+    display: flex;
+    position: absolute;
+    width: 16.5%;
+    height: 60%;
+    left: 66%;
+    top: 40%;
+    background-color:;
+    filter: opacity(100%);
+    z-index: 3;
+}
+
+.partsBanner {
+    display: flex;
+    position: absolute;
+    width: 17.5%;
+    height: 15%;
+    left: 82.5%;
+    background-color:;
+    top: 25%;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.partsBannerCopy {
+    display: flex;
+    position: absolute;
+    width: 17.5%;
+    height: 75%;
+    left: 82.5%;
+    top: 25%;
+    background-color: lightsalmon;
+    filter: opacity(100%);
+    z-index: 2;
+}
+
+.partsBannerText {
+    display: flex;
+    position: absolute;
+    width: 17.5%;
+    height: 60%;
+    left: 82.5%;
+    top: 40%;
+    background-color:;
+    filter: opacity(100%);
+    z-index: 3;
+}
+
+
+.textList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color:;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listText {
+    display: flex;
+    border: 1px solid white;
+    color: white;
+    padding: 5%;
+    font-size: 1.8vw;
+    margin-bottom: 5%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;  
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.listText:hover {
+    background-color: black;
+}
+
+.text {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+
+
+
+/*-------------------------------*/
+/*-------------------------------*/
+/*-------------------------------*/
+
+@media only screen and (max-width: 1172px) {
+    .wrapper {
+        overflow: hidden;
+    }
+    
+    
+    .navLogo {
+        width: 50%;
+        left: 0;
+    }
+    
+    .navLogoCopy {
+        width: 50%;
+        left: 0;
+    }
+    
+    .navBar {
+        width: 50%;
+        left: 50%;
+        justify-content: center;
+    }
+    
+    .navBarCopy {
+        width: 50%;
+        left: 50%;
+    }
+    
+    .imgTwo {
+        top: 25%;
+        width: 35%;
+        height: 37.5%;
+    }
+    
+    .imgTwoCopy {
+        top: 25%;
+        width: 35%;
+        height: 37.5%;    
+    }
+    
+    .imgThree {
+        width: 35%;
+        height: 37.5%;
+        top: 62.5%;
+    }
+    
+    .imgThreeCopy {
+        width: 35%;
+        height: 37.5%;
+        top: 62.5%;
+        font-size: 2.3vw;
+    }
+    
+    .imgFourCopy {
+        font-size: 2.3vw;
+    }
+    
+    .imgFiveCopy {
+        font-size: 2.3vw;
+    }
+    
+    .imgSixCopy {
+        font-size: 2.3vw;
+    }
+    
+    /*Browse*/
+    
+    .emptySpace {
+        width: 50%;
+        left: 50%;
+    }
+    
+    .emptySpaceCopy {
+        width: 50%;
+        left: 50%;
+    }
+    
+    .text {
+        font-size: 3.5vw;
+    }
+    
+    .listText {
+        font-size: 2.5vw;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+/*-------------------------------*/
+/*-------------------------------*/
+/*-------------------------------*/
+
+@media only screen and (max-width: 708px) {
+    .wrapper {
+        overflow: scroll;
+    }
+    
+    .navBar {
+        height: 15%;
+    }
+    
+    .navBarCopy {
+        height: 15%;
+    }
+    
+    .navLogo {
+        height: 15%;
+    }
+    
+    .navLogoCopy {
+        height: 15%;
+    }
+    
+    .imgOne {
+        width: 50%;
+        height: 37.5%;
+        left: 50%;
+        top: 15%;
+    }
+
+    .imgOneCopy {
+        width: 50%;
+        height: 37.5%;
+        left: 50%;
+        top: 15%;
+        font-size: 2.7vw;
+    }
+    
+    .imgTwo {
+        width: 50%;
+        height: 37.5%;
+        left: 0;
+        top: 52.5%;
+    }
+    
+    .imgTwoCopy {
+        width: 50%;
+        height: 37.5%;
+        left: 0%;
+        top: 52.5%;
+        font-size: 2.7vw;
+    }
+    
+    .imgThree {
+        width: 50%;
+        height: 37.5%;
+        top: 90%;
+        left: 50%;
+    }
+    
+    .imgThreeCopy {
+        width: 50%;
+        height: 37.5%;
+        top: 90%;
+        left: 50%;
+        font-size: 2.7vw;
+    }
+    
+    .imgFour {
+        width: 50%;
+        height: 37.5%;
+        top: 15%;
+        left: 0;
+    }
+    
+    .imgFourCopy {
+        width: 50%;
+        height: 37.5%;
+        top: 15%;
+        left: 0;
+        font-size: 2.7vw;
+    }
+    
+    .imgFive {
+        width: 50%;
+        height: 37.5%;
+        top: 52.5%;
+        left: 50%;
+    }
+    
+    .imgFiveCopy {
+        width: 50%;
+        height: 37.5%;
+        top: 52.5%;
+        left: 50%;
+        font-size: 2.7vw;
+    }
+    
+    .imgSix {
+        width: 50%;
+        height: 37.5%;
+        top: 90%;
+        left: 0;
+    }
+    
+    .imgSixCopy {
+        width: 50%;
+        height: 37.5%;
+        top: 90%;
+        left: 0;
+        font-size: 2.7vw;
+    }
+    
+    /*Browse*/
+    
+    .emptySpace {
+        height: 15%;  
+    }
+    
+    .emptySpaceCopy {
+        height: 15%;
+    }
+    
+    .audioBanner {
+        top: 15%;
+        width: 33%;
+    }
+    
+    .audioBannerCopy {
+        top: 15%;
+        height: 85%;
+        width: 33%;
+    }
+    
+    .audioBannerText {
+        top: 30%;
+        height: 70%;
+        width: 33%;
+    }
+    
+    .periphBanner {
+        top: 15%;
+        width: 33%;
+        left: 33%;
+    }
+    
+    .periphBannerCopy {
+        top: 15%;
+        height: 85%;
+        width: 33%;
+        left: 33%;
+    }
+    
+    .periphBannerText {
+        top: 30%;
+        height: 70%;
+        width: 33%;
+        left: 33%;
+    }
+    
+    .laptopBanner {
+        top: 15%;
+        width: 34%;
+        left: 66%;
+    }
+    
+    .laptopBannerCopy {
+        top: 15%;
+        height: 85%;
+        width: 34%;
+        left: 66%;
+    }
+    
+    .laptopBannerText {
+        top: 30%;
+        height: 70%;
+        width: 34%;
+        left: 66%;
+    }
+    
+    .mobileBanner {
+        top: 100%;
+        left: 0;
+        width: 33%;
+    }
+    
+    .mobileBannerCopy {
+        top: 100%;
+        height: 85%;
+        width: 33%; 
+        left: 0;
+    }
+    
+    .mobileBannerText {
+        top: 115%;
+        height: 70%;
+        left: 0;
+        width: 33%;
+    }
+    
+    .tutorialBanner {
+        top: 100%;
+        left: 33%;
+        width: 33%;
+    }
+    
+    .tutorialBannerCopy {
+        top: 100%;
+        height: 85%;
+        width: 33%;
+        left: 33%;
+    }
+    
+    .tutorialBannerText {
+        top: 115%;
+        height: 70%;
+        left: 33%;
+        width: 33%;
+    }
+    
+    .partsBanner {
+        top: 100%;
+        left: 66%;
+        width: 33%;
+    }
+    
+    .partsBannerCopy {
+        top: 100%;
+        height: 85%;
+        width: 34%;
+        left: 66%;
+    }
+    
+    .partsBannerText {
+        top: 115%;
+        height: 70%;
+        left: 66%;
+        width: 33%;
+    }
+    
+    .listText {
+        font-size:4vw;
+    }
+      
+    .text {
+        font-size: 5vw;
+    }
+
+    
+}
+
+/*-------------------------------*/
+/*-------------------------------*/
+/*-------------------------------*/
+
+@media only screen and (max-width: 475px) {
+    .imgOne {
+        width: 100%;
+        height: 37.5%;
+        left: 0%;
+        top: 52.5%;
+    }
+
+    .imgOneCopy {
+        width: 100%;
+        height: 37.5%;
+        left: 0%;
+        top: 52.5%;
+        font-size: 4vw;
+        filter: opacity(70%);
+        color: white;
+    }
+    
+    .imgTwo {
+        width: 100%;
+        height: 37.5%;
+        left: 0;
+        top: 90%;
+    }
+    
+    .imgTwoCopy {
+        width: 100%;
+        height: 37.5%;
+        left: 0%;
+        top: 90%;
+        font-size: 4vw;
+        filter: opacity(70%);
+        color: white;
+    }
+    
+    .imgThree {
+        width: 100%;
+        height: 37.5%;
+        top: 202.5%;
+        left: 0%;
+    }
+    
+    .imgThreeCopy {
+        width: 100%;
+        height: 37.5%;
+        top: 202.5%;
+        left: 0%;
+        font-size: 4vw;
+        filter: opacity(70%);
+        color: white;
+    }
+    
+    .imgFour {
+        width: 100%;
+        height: 37.5%;
+        top: 15%;
+        left: 0;
+    }
+    
+    .imgFourCopy {
+        width: 100%;
+        height: 37.5%;
+        top: 15%;
+        left: 0;
+        font-size: 4vw;
+        filter: opacity(70%);
+        color: white;
+    }
+    
+    .imgFive {
+        width: 100%;
+        height: 37.5%;
+        top: 127.5%;
+        left: 0%;
+    }
+    
+    .imgFiveCopy {
+        width: 100%;
+        height: 37.5%;
+        top: 127.5%;
+        left: 0%;
+        font-size: 4vw;
+        filter: opacity(70%);
+        color: white;
+    }
+    
+    .imgSix {
+        width: 100%;
+        height: 37.5%;
+        top: 165%;
+        left: 0;
+    }
+    
+    .imgSixCopy {
+        width: 100%;
+        height: 37.5%;
+        top: 165%;
+        left: 0;
+        font-size: 4vw;
+        filter: opacity(70%);
+        color: white;
+    }
+    
+    #title {
+        font-size: 10vw;
+    }
+    
+    .items {
+        font-size: 9vw;
+    }
+    
+    /*Browse*/
+    
+    .audioBanner {
+        width: 50%;
+        left: 0;
+    }
+    
+    .audioBannerCopy {
+        width: 50%;
+        left: 0;
+    }
+    
+    .audioBannerText {
+        width: 50%;
+        left: 0;
+    }
+    
+    .periphBanner {
+        width: 50%;
+        left: 50%;
+    }
+    
+    .periphBannerCopy {
+        width: 50%;
+        left: 50%;
+    }
+    
+    .periphBannerText {
+        width: 50%;
+        left: 50%;
+    }
+    
+    .laptopBanner {
+        top: 100%;
+        left: 0;
+        width: 50%;
+    }
+    
+    .laptopBannerCopy {
+        top: 100%;
+        height: 85%;
+        left: 0;
+        width: 50%;
+    }
+    
+    .laptopBannerText {
+        top: 115%;
+        height: 70%;
+        left: 0;
+        width: 50%;
+        z-index: 100;
+    }
+    
+    .mobileBanner {
+        top: 100%;
+        left: 50%;
+        width: 50%;
+    }
+    
+    .mobileBannerCopy {
+        top: 100%;
+        left: 50%;
+        width: 50%;
+    }
+    
+    .mobileBannerText {
+        top: 115%;
+        height: 70%;
+        left: 50%;
+        width: 50%;
+        z-index: 100;
+    }
+    
+    .partsBanner {
+        top: 185%;
+        width: 50%;
+        left: 0;
+    }
+    
+    .partsBannerCopy {
+        top: 185%;
+        width: 50%;
+        left: 0;
+    }
+    
+    .partsBannerText {
+        top: 200%;
+        width: 50%;
+        left: 0;
+    }
+    
+    .tutorialBanner {
+        top: 185%;
+        width: 50%;
+        left: 50%;
+    }
+    
+    .tutorialBannerCopy {
+        top: 185%;
+        width: 50%;
+        left: 50%;
+    }
+    
+    .tutorialBannerText {
+        top: 200%;
+        width: 50%;
+        left: 50%;
+    }
+    
+    .text {
+        font-size: 9vw;
+    }
+    
+    .listText {
+        font-size: 6vw;
+    }
+      
+}
