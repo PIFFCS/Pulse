@@ -340,331 +340,297 @@ a:link {
 /*BROWSE-------------------------*/
 /*-------------------------------*/
 
+#header {
+    position: absolute;
+    display: flex;
+    width: 20%;
+    height: 20%;
+    top: 0;
+    left: 0;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+}
 
-.navLogo {
+#spaceEmpty {
+    position: absolute;
+    display: flex;
+    width: 80%;
+    height: 20%;
+    top: 0;
+    left: 20%;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+}
+
+#topContentBox {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 20%;
+    left: 0;
+    background: url(sheets/Magnificent-City-Skyline-Wallpaper.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#emptySpaceOne {
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    top: 0;
+    background-color:white;  
+}
+
+#emptySpaceTwo {
+    position: absolute;
+    width: 3%;
+    height: 90%;
+    top: 7%;
+    background-color:white;
+}
+
+#emptySpaceThree {
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    top: 93%;
+    background-color:white;
+}
+
+#emptySpaceFour {
+    position: absolute;
+    width: 3%;
+    height: 93%;
+    top: 7%;
+    left: 97%;
+    background-color:white;
+}
+
+#audio {
+    position: absolute;
+    width: 20%;
+    height: 86%;
+    top: 7%;
+    left: 3%;
+    background-color: gray;
+    filter: opacity(65%);
+}
+
+#audioTitle {
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    top: 7%;
+    left: 3%;
+    background-color: red;
+}
+
+#audioCopy {
+    position: absolute;
+    width: 20%;
+    height: 71%;
+    top: 22%;
+    left: 3%;
+    background-color: blue;
+}
+
+
+#parts {
+    position: absolute;
+    width: 20%;
+    height: 86%;
+    top: 7%;
+    left: 40%;
+    background-color: gray;
+    filter: opacity(65%);
+}
+
+#partsTitle {
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    top: 7%;
+    left: 40%;
+    background-color: red;
+}
+
+#partsCopy {
+    position: absolute;
+    width: 20%;
+    height: 71%;
+    top: 22%;
+    left: 40%;
+    background-color: blue;
+}
+
+
+#periph {
+    position: absolute;
+    width: 20%;
+    height: 86%;
+    top: 7%;
+    left: 77%;
+    background-color: gray;
+    filter: opacity(65%);
+}
+
+#periphTitle {
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    top: 7%;
+    left: 77%;
+    background-color: red;
+}
+
+#periphCopy {
+    position: absolute;
+    width: 20%;
+    height: 71%;
+    top: 22%;
+    left: 77%;
+    background-color: blue;
+}
+
+
+#bottomContentBox {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 100%;
+    left: 0;
+    background: url(sheets/ny.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#emptySpaceFive {
+    position: absolute;
+    width: 3%;
+    height: 100%;
+    top: 0%;
+    background-color:white;
+}
+
+#emptySpaceSix {
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    top: 93%;
+    background-color:white;
+}
+
+#emptySpaceSeven {
+    position: absolute;
+    width: 3%;
+    height: 100%;
+    top: 0%;
+    left: 97%;
+    background-color:white;
+}
+
+#emptySpaceEight {
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    top: 0;
+    background-color:white;
+}
+
+#mobile {
+    position: absolute;
+    width: 20%;
+    height: 86%;
+    top: 7%;
+    left: 3%;
+    background-color: gray;
+    filter: opacity(65%);
     
 }
-.emptySpace {
+
+#mobileText {
     position: absolute;
-    width: 72%;
-    height: 25%;
-    left: 28%;
-}
-
-.emptySpaceCopy {
-    display: flex;
-    position: absolute;
-    width: 72%;
-    height: 25%;
-    top: 0%;
-    left: 28%;
-    z-index: 1; 
-    justify-content: center;
-    align-items: center;
-    background: url(sheets/sko.png);
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-    filter: opacity(20%);
-}
-
-
-
-.mountain {
-    position: absolute;
-    width: 100%;
-    height: 75%;
-    top: 25%;
-   
-    z-index: 0;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-.audioBanner {
-    display: flex;
-    position: absolute;
-    width: 16.66666%;
+    width: 20%;
     height: 15%;
-    left: 0;
-    background-color:;
-    top: 25%;
-    z-index: 4;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-.audioBannerCopy {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 75%;
-    left: 0;
-    top: 25%;
-    background-color: lightcoral;
-    filter: opacity(100%);
-    z-index: 2;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+    top: 7%;
+    left: 3%;
+    background-color: red;
 }
 
-.audioBannerText {
-    display: flex;
+#mobileCopy {
     position: absolute;
-    width: 16.5%;
-    height: 60%;
-    left: 0;
-    top: 40%;
-    background-color:;
-    filter: opacity(100%);
-    z-index: 3;
+    width: 20%;
+    height: 71%;
+    top: 22%;
+    left: 3%;
+    background-color: blue;
 }
 
-.text {
+#laptops {
+    position: absolute;
+    width: 20%;
+    height: 86%;
+    top: 7%;
+    left: 40%;
+    background-color: gray;
+    filter: opacity(65%);
+}
+
+#laptopsText {
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    top: 7%;
+    left: 40%;
+    background-color: red;
+}
+
+#laptopsCopy {
+    position: absolute;
+    width: 20%;
+    height: 71%;
+    top: 22%;
+    left: 40%;
+    background-color: blue;
+}
+
+#tutorials {
+    position: absolute;
+    width: 20%;
+    height: 86%;
+    top: 7%;
+    left: 77%;
+    background-color: gray;
+    filter: opacity(65%);
+}
+
+#tutorialsText {
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    top: 7%;
+    left: 77%;
+    background-color: red;
+}
+
+#tutorialsCopy {
+    position: absolute;
+    width: 20%;
+    height: 71%;
+    top: 22%;
+    left: 77%;
+    background-color: blue;
+}
+
+#titleTwo {
+    font-size: 5vw;
     color: white;
-    font-size: 3.2vw;
+    font-family: 'Rock Salt', cursive;
 }
-
-.periphBanner {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 15%;
-    left: 16.5%;
-    background-color: ;
-    top: 25%;
-    z-index: 4;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-.periphBannerCopy {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 75%;
-    left: 16.5%;
-    top: 25%;
-    background-color: lightblue;
-    filter: opacity(100%);
-    z-index: 2;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-.periphBannerText {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 60%;
-    left: 16.5%;
-    top: 40%;
-    background-color:;
-    filter: opacity(100%);
-    z-index: 3;
-}
-
-.laptopBanner {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 15%;
-    left: 33%;
-    background-color:;
-    top: 25%;
-    z-index: 4;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-.laptopBannerCopy {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 75%;
-    left: 33%;
-    top: 25%;
-    background-color: lightgreen;
-    filter: opacity(100%);
-    z-index: 2;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-.laptopBannerText {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 60%;
-    left: 33%;
-    top: 40%;
-    background-color:;
-    filter: opacity(100%);
-    z-index: 3;
-}
-
-.mobileBanner {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 15%;
-    left: 49.5%;
-    background-color:;
-    top: 25%;
-    z-index: 4;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-.mobileBannerCopy {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 75%;
-    left: 49.5%;
-    top: 25%;
-    background-color: lightgrey;
-    filter: opacity(100%);
-    z-index: 2;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
-
-.mobileBannerText {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 60%;
-    left: 49.5%;
-    top: 40%;
-    background-color:;
-    filter: opacity(100%);
-    z-index: 3;
-}
-
-.tutorialBanner {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 15%;
-    left: 66%;
-    background-color:;
-    top: 25%;
-    z-index: 4;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-.tutorialBannerCopy {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 75%;
-    left: 66%;
-    top: 25%;
-    background-color: lightseagreen;
-    filter: opacity(100%);
-    z-index: 2;
-}
-
-.tutorialBannerText {
-    display: flex;
-    position: absolute;
-    width: 16.5%;
-    height: 60%;
-    left: 66%;
-    top: 40%;
-    background-color:;
-    filter: opacity(100%);
-    z-index: 3;
-}
-
-.partsBanner {
-    display: flex;
-    position: absolute;
-    width: 17.5%;
-    height: 15%;
-    left: 82.5%;
-    background-color:;
-    top: 25%;
-    z-index: 4;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-.partsBannerCopy {
-    display: flex;
-    position: absolute;
-    width: 17.5%;
-    height: 75%;
-    left: 82.5%;
-    top: 25%;
-    background-color: lightsalmon;
-    filter: opacity(100%);
-    z-index: 2;
-}
-
-.partsBannerText {
-    display: flex;
-    position: absolute;
-    width: 17.5%;
-    height: 60%;
-    left: 82.5%;
-    top: 40%;
-    background-color:;
-    filter: opacity(100%);
-    z-index: 3;
-}
-
-
-.textList {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    background-color:;
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.listText {
-    display: flex;
-    border: 1px solid white;
-    color: white;
-    padding: 5%;
-    font-size: 1.8vw;
-    margin-bottom: 5%;
-    width: 70%;
-    justify-content: center;
-    align-items: center;  
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.listText:hover {
-    background-color: black;
-}
-
-.text {
-    font-family: 'Fjalla One', sans-serif;
-}
-
-
-
 
 
 
@@ -738,31 +704,6 @@ a:link {
     
     /*Browse*/
     
-    .emptySpace {
-        width: 50%;
-        left: 50%;
-    }
-    
-    .emptySpaceCopy {
-        width: 50%;
-        left: 50%;
-    }
-    
-    .text {
-        font-size: 3.5vw;
-    }
-    
-    .listText {
-        font-size: 2.5vw;
-    }
-    
-    
-}
-
-
-
-
-
 
 
 /*-------------------------------*/
@@ -882,139 +823,6 @@ a:link {
     
     /*Browse*/
     
-    .emptySpace {
-        height: 15%;  
-    }
-    
-    .emptySpaceCopy {
-        height: 15%;
-    }
-    
-    .audioBanner {
-        top: 15%;
-        width: 33%;
-    }
-    
-    .audioBannerCopy {
-        top: 15%;
-        height: 85%;
-        width: 33%;
-    }
-    
-    .audioBannerText {
-        top: 30%;
-        height: 70%;
-        width: 33%;
-    }
-    
-    .periphBanner {
-        top: 15%;
-        width: 33%;
-        left: 33%;
-    }
-    
-    .periphBannerCopy {
-        top: 15%;
-        height: 85%;
-        width: 33%;
-        left: 33%;
-    }
-    
-    .periphBannerText {
-        top: 30%;
-        height: 70%;
-        width: 33%;
-        left: 33%;
-    }
-    
-    .laptopBanner {
-        top: 15%;
-        width: 34%;
-        left: 66%;
-    }
-    
-    .laptopBannerCopy {
-        top: 15%;
-        height: 85%;
-        width: 34%;
-        left: 66%;
-    }
-    
-    .laptopBannerText {
-        top: 30%;
-        height: 70%;
-        width: 34%;
-        left: 66%;
-    }
-    
-    .mobileBanner {
-        top: 100%;
-        left: 0;
-        width: 33%;
-    }
-    
-    .mobileBannerCopy {
-        top: 100%;
-        height: 85%;
-        width: 33%; 
-        left: 0;
-    }
-    
-    .mobileBannerText {
-        top: 115%;
-        height: 70%;
-        left: 0;
-        width: 33%;
-    }
-    
-    .tutorialBanner {
-        top: 100%;
-        left: 33%;
-        width: 33%;
-    }
-    
-    .tutorialBannerCopy {
-        top: 100%;
-        height: 85%;
-        width: 33%;
-        left: 33%;
-    }
-    
-    .tutorialBannerText {
-        top: 115%;
-        height: 70%;
-        left: 33%;
-        width: 33%;
-    }
-    
-    .partsBanner {
-        top: 100%;
-        left: 66%;
-        width: 33%;
-    }
-    
-    .partsBannerCopy {
-        top: 100%;
-        height: 85%;
-        width: 34%;
-        left: 66%;
-    }
-    
-    .partsBannerText {
-        top: 115%;
-        height: 70%;
-        left: 66%;
-        width: 33%;
-    }
-    
-    .listText {
-        font-size:4vw;
-    }
-      
-    .text {
-        font-size: 5vw;
-    }
-
     
 }
 
@@ -1135,119 +943,5 @@ a:link {
     
     /*Browse*/
     
-    .audioBanner {
-        width: 50%;
-        left: 0;
-    }
-    
-    .audioBannerCopy {
-        width: 50%;
-        left: 0;
-    }
-    
-    .audioBannerText {
-        width: 50%;
-        left: 0;
-    }
-    
-    .periphBanner {
-        width: 50%;
-        left: 50%;
-    }
-    
-    .periphBannerCopy {
-        width: 50%;
-        left: 50%;
-    }
-    
-    .periphBannerText {
-        width: 50%;
-        left: 50%;
-    }
-    
-    .laptopBanner {
-        top: 100%;
-        left: 0;
-        width: 50%;
-    }
-    
-    .laptopBannerCopy {
-        top: 100%;
-        height: 85%;
-        left: 0;
-        width: 50%;
-    }
-    
-    .laptopBannerText {
-        top: 115%;
-        height: 70%;
-        left: 0;
-        width: 50%;
-        z-index: 100;
-    }
-    
-    .mobileBanner {
-        top: 100%;
-        left: 50%;
-        width: 50%;
-    }
-    
-    .mobileBannerCopy {
-        top: 100%;
-        left: 50%;
-        width: 50%;
-    }
-    
-    .mobileBannerText {
-        top: 115%;
-        height: 70%;
-        left: 50%;
-        width: 50%;
-        z-index: 100;
-    }
-    
-    .partsBanner {
-        top: 185%;
-        width: 50%;
-        left: 0;
-    }
-    
-    .partsBannerCopy {
-        top: 185%;
-        width: 50%;
-        left: 0;
-    }
-    
-    .partsBannerText {
-        top: 200%;
-        width: 50%;
-        left: 0;
-    }
-    
-    .tutorialBanner {
-        top: 185%;
-        width: 50%;
-        left: 50%;
-    }
-    
-    .tutorialBannerCopy {
-        top: 185%;
-        width: 50%;
-        left: 50%;
-    }
-    
-    .tutorialBannerText {
-        top: 200%;
-        width: 50%;
-        left: 50%;
-    }
-    
-    .text {
-        font-size: 9vw;
-    }
-    
-    .listText {
-        font-size: 6vw;
-    }
       
 }
