@@ -322,8 +322,8 @@ a {
     font-family: 'Open Sans Condensed', sans-serif; 
     font-size: 4vw;
     border: 2px solid white;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 3vw;
+    padding-right: 3vw;
     padding-top: 4%;
     padding-bottom: 4%;  
 }
@@ -341,7 +341,7 @@ a:link {
 /*-------------------------------*/
 
 #header {
-    position: absolute;
+    position: fixed;
     display: flex;
     width: 20%;
     height: 20%;
@@ -350,10 +350,11 @@ a:link {
     background-color: cadetblue;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
 #spaceEmpty {
-    position: absolute;
+    position: fixed;
     display: flex;
     width: 80%;
     height: 20%;
@@ -362,6 +363,7 @@ a:link {
     background-color: cadetblue;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
 #topContentBox {
@@ -421,11 +423,15 @@ a:link {
 
 #audioTitle {
     position: absolute;
+    display: flex;
     width: 20%;
     height: 15%;
     top: 7%;
     left: 3%;
-    background-color: red;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #audioCopy {
@@ -434,7 +440,7 @@ a:link {
     height: 71%;
     top: 22%;
     left: 3%;
-    background-color: blue;
+    background-color:;
 }
 
 
@@ -450,11 +456,14 @@ a:link {
 
 #partsTitle {
     position: absolute;
+    display: flex;
     width: 20%;
     height: 15%;
     top: 7%;
     left: 40%;
-    background-color: red;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
 }
 
 #partsCopy {
@@ -463,7 +472,7 @@ a:link {
     height: 71%;
     top: 22%;
     left: 40%;
-    background-color: blue;
+    background-color:;
 }
 
 
@@ -479,11 +488,16 @@ a:link {
 
 #periphTitle {
     position: absolute;
+    display: flex;
     width: 20%;
     height: 15%;
     top: 7%;
     left: 77%;
-    background-color: red;
+    background-color:;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #periphCopy {
@@ -492,7 +506,7 @@ a:link {
     height: 71%;
     top: 22%;
     left: 77%;
-    background-color: blue;
+    background-color: ;
 }
 
 
@@ -554,11 +568,14 @@ a:link {
 
 #mobileText {
     position: absolute;
+    display: flex;
     width: 20%;
     height: 15%;
     top: 7%;
     left: 3%;
-    background-color: red;
+    background-color:;
+    justify-content: center;
+    align-items: center;
 }
 
 #mobileCopy {
@@ -567,7 +584,7 @@ a:link {
     height: 71%;
     top: 22%;
     left: 3%;
-    background-color: blue;
+    background-color:;
 }
 
 #laptops {
@@ -582,11 +599,14 @@ a:link {
 
 #laptopsText {
     position: absolute;
+    display: flex;
     width: 20%;
     height: 15%;
     top: 7%;
     left: 40%;
-    background-color: red;
+    background-color:;
+    justify-content: center;
+    align-items: center;
 }
 
 #laptopsCopy {
@@ -595,7 +615,7 @@ a:link {
     height: 71%;
     top: 22%;
     left: 40%;
-    background-color: blue;
+    background-color:;
 }
 
 #tutorials {
@@ -610,11 +630,14 @@ a:link {
 
 #tutorialsText {
     position: absolute;
+    display: flex;
     width: 20%;
     height: 15%;
     top: 7%;
     left: 77%;
-    background-color: red;
+    background-color:;
+    justify-content: center;
+    align-items: center;
 }
 
 #tutorialsCopy {
@@ -623,7 +646,7 @@ a:link {
     height: 71%;
     top: 22%;
     left: 77%;
-    background-color: blue;
+    background-color:;
 }
 
 #titleTwo {
@@ -631,6 +654,39 @@ a:link {
     color: white;
     font-family: 'Rock Salt', cursive;
 }
+
+#item {
+    color: white;
+    border: 1.5px solid white;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 2.5vw;
+    
+}
+
+#item:hover {
+    background-color: black;
+}
+
+#navBar {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#subTitle {
+    color: white;
+    font-size: 3vw;
+}
+
+
 
 
 
