@@ -760,8 +760,7 @@ a:link {
     
     /*Browse*/
     
-
-
+    
 /*-------------------------------*/
 /*-------------------------------*/
 /*-------------------------------*/
@@ -879,7 +878,48 @@ a:link {
     
     /*Browse*/
     
+    #audio {
+        width: 31%;
+    }
     
+    #audioCopy {
+        width: 31%;    
+    }
+    
+    #audioTitle {
+        width: 31%;   
+    }
+    
+    #parts {
+        left: 34%;
+        width: 32%;
+    }
+    
+    #partsCopy {
+        left: 34%;
+        width: 32%;    
+    }
+    
+    #partsTitle {
+        left: 34%;
+        width: 32%;
+    }
+    
+    #periph {
+        left: 66%;
+        width: 31%;
+    }
+
+    #periphCopy {
+        left: 66%;
+        width: 31%;
+    }
+    
+    #periphTitle {
+        left: 66%;
+        width: 31%;
+    }
+
 }
 
 /*-------------------------------*/
