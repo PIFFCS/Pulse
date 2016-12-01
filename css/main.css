@@ -93,7 +93,7 @@ a {
     top: 25%;
     background-color: aqua;
     left: 32.5%;
-    background: url(sheets/new-macbook-pro-release-date-martin-hajeck_thumb800.jpg);
+    background: url(sheets/lk.jpg);
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -169,7 +169,7 @@ a {
     left: 65%;
     top: 0;
     z-index: 1;
-    background: url(sheets/microsoft_surface_studio.jpg);
+    background: url(sheets/overall.jpg);
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -207,7 +207,7 @@ a {
     left: 0%;
     top: 25%;
     z-index: 1;
-    background: url(sheets/cam.jpg);
+    background: url(sheets/kl.jpg);
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -244,7 +244,7 @@ a {
     left: 0%;
     top: 62.5%;
     z-index: 1;
-    background: url(sheets/Pebble-Steel-2.jpg);
+    background: url(sheets/7c482cc7_IMAG3054.jpeg);
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -598,7 +598,10 @@ a:link {
     font-family: 'Oswald', sans-serif;
     font-size: 2vw;
     border: 1px solid white;
-    padding: 10px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 #list:hover{
@@ -616,7 +619,7 @@ a:link {
     background-color:;
     justify-content: space-around;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 
 /*-------------------------------*/
